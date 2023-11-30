@@ -24,9 +24,6 @@ section {
     border-radius: 50%;
     width: 10%;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-bottom: 10px;
 }
 
@@ -40,7 +37,7 @@ section {
     background-color: rgb(169, 243, 233);
 }
 
-.navbar {
+.navbar-container {
 
     display: flex;
     justify-content: space-between;
