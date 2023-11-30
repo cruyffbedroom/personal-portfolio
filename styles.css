@@ -20,10 +20,19 @@ img {
 }
 
 .jerry-image {
+    border-radius: 50%;
+    width: 100;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 10px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar {
