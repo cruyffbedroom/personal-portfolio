@@ -80,22 +80,21 @@ section {
     padding: 50px 0; /* Add padding for better spacing */
 }
 
-.social-icons {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-    margin: 0; /* Remove default margin */
+.social-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.social-icons li {
-    display: inline-block;
-    margin-right: 10px; /* Adjust margin for spacing */
+.social-icon {
+    margin: 0 10px; /* Adjust margin for spacing */
 }
 
-.social-icons a {
+.social-icon a {
     color: #007bff;
     font-size: 24px;
     text-decoration: none; /* Remove default underline */
+}
 }
 
 *, *::before, *::after {
