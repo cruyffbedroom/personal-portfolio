@@ -99,6 +99,8 @@ header {
 }
 }
 
+/* reset */
+
 *, *::before, *::after {
     
     box-sizing: border-box;
@@ -130,4 +132,21 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
     
     isolation: isolate;
+}
+
+/* Smaller screens */
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center;
+    }
+
+    .card {
+        width: 100%; /* Full width for smaller screens */
+        margin-bottom: 15px; 
+    }
+
+    .list-of-skills{
+        flex-direction: column;
+        align-items: center;
 }
