@@ -1,7 +1,26 @@
+
+/*structure styles */
+
 #main {
     background-color:rgb(201, 121, 187);
 }
 
+section {
+    text-align: center;
+}
+
+/*navbar styles */
+
+.navbar-container {
+
+    display: flex;
+    justify-content: center;
+    flex: 1 1 0;
+    /* align-items: center; */
+    margin: 0;
+}
+
+/* header styles */
 
 header {
 
@@ -9,15 +28,7 @@ header {
     text-align: center;
 }
 
-section {
-    text-align: center;
-}
-
-/* img {
-    border-radius: 50%;
-    width: 10%;
-    height: auto;
-} */
+/* image styles */
 
 #jerry-image-id {
     text-align: center;
@@ -27,12 +38,23 @@ section {
     padding-bottom: 10px;
 }
 
-/* .card-container {
+/* skills styles */
+
+.list-of-skills{
+    
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15px; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
 }
+
+.skills-title {
+    align-text: center;
+    padding-bottom: 10px;
+
+}
+
+/* project card styles */
 
 .card-body {
     background-color: rgb(169, 243, 233);
@@ -52,29 +74,9 @@ section {
 
 .card:hover {
     transform: scale(1.05);
-
-.navbar-container {
-
-    display: flex;
-    justify-content: center;
-    flex: 1 1 0;
-    /* align-items: center; */
-    margin: 0;
 }
 
-.list-of-skills{
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-bottom: 10px;
-}
-
-.skills-title {
-    align-text: center;
-    padding-bottom: 10px;
-
-}
+/* contact styles */
 
 #contact {
     padding: 50px 0; /* Add padding for better spacing */
